@@ -16,7 +16,7 @@
     "vetur.validation.template": true
 `
 * Đoạn mã trên bật tính năng auto fix lỗi của eslint khi bạn save code nó tắt validate script của vetur thay vào đó sẽ dùng eslint. Việc sử dụng eslint trong project nuxt là quan trọng. Nếu bạn không cài đặt eslint thì bạn sẽ gặp phải trường hợp là khi chạy app sẽ gặp lỗi và bạn sẽ tìm cách tắt hết rule của eslint đi và làm project không còn tuân theo quy tắc nữa.
-Eslint và prettier có quan hệ với nhau. Eslint thường tích hợp luôn prettier để format code luôn. hãy mở file eslintrc.js để xem config.
+* Eslint và prettier có quan hệ với nhau. Eslint thường tích hợp luôn prettier để format code luôn. hãy mở file eslintrc.js để xem config.
 * Lưu ý quan trọng: Không mở project dưới dạng workspace của vscode vì nó làm ảnh hưởng tới việc các tiện ích của vscode hoạt động.
 
 ### 2. 
